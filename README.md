@@ -1,4 +1,4 @@
-# <img align="right" src="https://raw.github.com/magnars/dash.el/master/rainbow-dash.png"> dash.el [![Build Status](https://secure.travis-ci.org/magnars/dash.el.png)](http://travis-ci.org/magnars/dash.el)
+# <img align="right" src="https://raw.github.com/magnars/dash.el/master/rainbow-dash.png"> dash.el [![Build Status](https://secure.travis-ci.org/magnars/dash.el.png)](http://travis-ci.org/magnars/dash.el) [![Coverage Status](https://coveralls.io/repos/github/magnars/dash.el/badge.svg)](https://coveralls.io/github/magnars/dash.el)
 
 A modern list api for Emacs. No 'cl required.
 
@@ -326,7 +326,7 @@ Return a new list consisting of the result of applying `fn` to the items in `lis
 
 #### -map-when `(pred rep list)`
 
-Return a new list where the elements in `list` that does not match the `pred` function
+Return a new list where the elements in `list` that do not match the `pred` function
 are unchanged, and where the elements in `list` that do match the `pred` function are mapped
 through the `rep` function.
 
